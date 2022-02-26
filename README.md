@@ -5,9 +5,13 @@
   <b>𝙾𝙿-𝙵𝙸𝙻𝙴 𝚂𝚃𝙾𝚁𝙴 𝙱𝙾𝚃</b>
 </h1>
 <div align="center">
+
+
 <a href=https://youtu.be/kB9TkCs8cX0><img align="center" alt="YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" /></a>
 <a href=https://www.instagram.com/_aadil_m__><img align="center" alt="Instagram" width="22px" src="https://unpkg.com/simple-icons@v6/icons/instagram.svg" /></a>
 <p align="center">
+
+
 <a href="https://t.me/Aadhi011"><img alt="Telegram" src="https://img.shields.io/badge/Aadhi-2CA5E0?style=for-the-badge&logo=telegram&logoColor=green"/></a>
 </p>
 </div>
