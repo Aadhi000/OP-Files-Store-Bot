@@ -1,24 +1,24 @@
 {
-  "name": "TG File Sharing Bot",
+  "name": "OP File Store Bot",
   "description": "file sharing bot store posts and it can access by special links",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "repository": "https://github.com/Aadhi000/OP-Files-Store-Bot",
+  "logo": "https://telegra.ph/file/12921701faf018f20c6a4.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
+      "description": "Your Telegram ID",
       "value": "1250450587"
     },
     "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
+      "description": "your api id, take it from my.telegram.org",
       "value": ""
     },
     "API_HASH":{
@@ -35,7 +35,7 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "Hey {first}\n\nI can store private files in Specified Channel and other users can access it using a special link."
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
