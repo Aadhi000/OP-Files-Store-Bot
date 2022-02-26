@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>╭━━━━━━━━━━━━━━━➣\n┣⪼ Creator : href='tg://user?id={OWNER_ID}'\n┣⪼ Language : Python3\n┣⪼ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┣⪼ Source Code : <a href='https://github.com/Aadhi000/OP-Files-Store-Bot'>OP-File Store Bot</a>\n┣⪼ Channel : <a href='https://t.me/OpusTechz'>Opus Techz</a>\n┣⪼ YouTube Channel : <a href='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'>Opus Techz</a>\n╰━━━━━━━━━━━━━━━➣</b>",
+            text = f"<b>╭━━━━━━━━━━━━━━━➣\n┣⪼ Creator : <a href='tg://user?id={OWNER_ID}'Me</a>\n┣⪼ Language : Python3\n┣⪼ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┣⪼ Source Code : <a href='https://github.com/Aadhi000/OP-Files-Store-Bot'>OP-File Store Bot</a>\n┣⪼ Channel : <a href='https://t.me/OpusTechz'>Opus Techz</a>\n┣⪼ YouTube Channel : <a href='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'>Opus Techz</a>\n╰━━━━━━━━━━━━━━━➣</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
                     ]
                 ]
             )
