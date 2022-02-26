@@ -11,7 +11,7 @@ from helper_func import encode
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & ~filters.command(['start','users','broadcast','batch','genlink']))
 async def channel_post(client: Client, message: Message):
-    reply_text = await message.reply_text("𝙰𝙲𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙵𝙸𝙻𝙴𝚂...!", quote = True)
+    reply_text = await message.reply_text("𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙸𝙽𝙶 𝚄𝚁𝙻...!", quote = True)
     try:
         post_message = await message.copy(chat_id = client.db_channel.id, disable_notification=True)
     except FloodWait as e:
