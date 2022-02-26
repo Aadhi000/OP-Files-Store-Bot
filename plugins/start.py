@@ -90,8 +90,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data = "about"),
+                    InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
                 ]
             ]
         )
@@ -114,7 +114,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(
-                "Join Channel",
+                "𝙹𝙾𝙸𝙽 𝙲𝙷𝙰𝙽𝙽𝙴𝙻",
                 url = client.invitelink)
         ]
     ]
@@ -122,7 +122,7 @@ async def not_joined(client: Client, message: Message):
         buttons.append(
             [
                 InlineKeyboardButton(
-                    text = 'Try Again',
+                    text = '𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽',
                     url = f"https://t.me/{client.username}?start={message.command[1]}"
                 )
             ]
@@ -160,7 +160,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Broadcasting Message.. This will Take Some Time</i>")
+        pls_wait = await message.reply("<b><i>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃𝙸𝙽 𝙼𝚆𝚂𝚂𝙴</i></b>")
         for row in query:
             chat_id = int(row[0])
             try:
