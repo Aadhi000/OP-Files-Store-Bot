@@ -61,7 +61,7 @@ async def start_command(client: Client, message: Message):
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Something went wrong..!")
+            await message.reply_text("𝚂𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚠𝚎𝚗𝚝 𝚠𝚛𝚘𝚗𝚐..!")
             return
         await temp_msg.delete()
 
@@ -89,6 +89,10 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
+                
+                    InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+
+                ],
                 [
                     InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data = "about"),
                     InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data = "close")
@@ -160,7 +164,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<b><i>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃𝙸𝙽 𝙼𝚆𝚂𝚂𝙴</i></b>")
+        pls_wait = await message.reply("<b><i>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃𝙸𝙽 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂....</i></b>")
         for row in query:
             chat_id = int(row[0])
             try:
@@ -179,13 +183,13 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b><i>Broadcast Completed</i></b>
+        status = f"""<b>𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳
 
-Total Users: <code>{total}</code>
-Successful: <code>{successful}</code>
-Blocked Users: <code>{blocked}</code>
-Deleted Accounts: <code>{deleted}</code>
-Unsuccessful: <code>{unsuccessful}</code></b>"""
+𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: {total}
+𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻: {successful}
+𝙱𝙻𝙾𝙲𝙺𝙴𝙳 𝚄𝚂𝙴𝚁𝚂: {blocked}
+𝙳𝙴𝙻𝙴𝚃𝙴𝙳 𝙰𝙲𝙲𝙾𝚄𝙽𝚃: {deleted}
+𝚄𝙽𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻: {unsuccessful}</b>"""
         
         return await pls_wait.edit(status)
 
