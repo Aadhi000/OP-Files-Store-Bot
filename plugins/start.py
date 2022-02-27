@@ -88,11 +88,9 @@ async def start_command(client: Client, message: Message):
         return
     else:
         reply_markup = InlineKeyboardMarkup(
-            [
-                
+            [                
                 ]
-                    InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
-
+                    InlineKeyboardButton("✅ SUBSCᏒIBΞ  ✅", url="https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA")
                 ],
                 [
                     InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃", callback_data = "about"),
