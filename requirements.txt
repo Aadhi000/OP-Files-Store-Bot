@@ -1,5 +1,5 @@
 # --- For-Bot-Working --------- #
-pyrogram
+git+https://github.com/subinps/pyrogram@inline-m
 TgCrypto
 Pyromod
 # --- For-Database ------------ #
